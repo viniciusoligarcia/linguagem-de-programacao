@@ -9,11 +9,11 @@ public class Main {
         System.out.println("Carro 1: " + carro_1.marca);
         Veiculo[] estacionamento = {carro_1, carro_2, carro_3, carro_4}
 
-        for(Veiculo item:: estacionamento){
+        for(Veiculo item: estacionamento){
             System.out.println("Marca:" + item.marca);
-            System.out.println("Modelo:" + item.modelo)
+            System.out.println("Modelo:" + item.modelo);
         }
 
         }
     }
-}
+
